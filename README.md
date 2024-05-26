@@ -6,6 +6,23 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+## Document Management System
+The Document Management System (DMS) is a web application built with Laravel that provides a robust platform for managing documents. It offers features like document upload, categorization, search, and access control. This system aims to streamline the process of document management within an organization, ensuring efficient and secure handling of documents.
+
+
+### Features
+
+- **User Authentication and Authorization**: Secure login and role-based access control.
+- **Document Upload**: Support for multiple file types with validation.
+- **Document Categorization**: Organize documents into categories for easy retrieval.
+- **User Roles**: User Roles: There are three types of login:
+        **Admin**: Has full access to all features.
+        **Company**: Can view and manage documents specific to their company.
+        **User**: Can view and manage only their own documents with limited access.
+- **Version Control**: Maintain and track different versions of a document.
+- **Document Sharing**: Share documents with other users or external parties.
+- **Audit Logs**: Keep track of all document-related activities.
+- **Notifications**: Email notifications for shared documents or updates.
 
 ## About Laravel
 
